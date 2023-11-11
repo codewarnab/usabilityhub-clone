@@ -270,7 +270,7 @@ header {
     max-width: 60vw;
 }
 .review{
-    position: none;
+/*     position: none; */
     top: -30px;
     width: 390px;
     font-weight: 550;
