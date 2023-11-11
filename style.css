@@ -270,7 +270,7 @@ header {
     max-width: 60vw;
 }
 .review{
-    position: relative;
+    position: none;
     top: -30px;
     width: 390px;
     font-weight: 550;
@@ -279,7 +279,6 @@ header {
 }
 .chartmogul {
     width: 110px;
-    position: relative;
 }
 .feature-description h4 {
     display: inline;
