@@ -279,6 +279,7 @@ header {
 }
 .chartmogul {
     width: 110px;
+    position: relative;
 }
 .feature-description h4 {
     display: inline;
