@@ -80,6 +80,13 @@
         gap:30px;
         padding-right: 0;
     }
+    .cta-content{
+        flex-direction: column-reverse;
+    }
+    .cta-description{
+        width: 100%;
+    }
+
     
 }
 @media screen  and (max-width:710px){
@@ -99,4 +106,27 @@
         align-items: center;
         justify-content: center;
     }
+}
+
+@media screen and (max-width:425px){
+    #bg-bt,.become-tester{
+        display: none;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .small-bold-text{
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    .features-section{
+        padding: 20px 10px ;
+    }
+}
+
+@media screen and (max-width:375px){
+    .features-card{
+        min-width: calc(100% - 20px);
+    }
+    
 }

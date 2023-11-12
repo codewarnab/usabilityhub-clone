@@ -74,7 +74,7 @@ ul{
 }
 .main-nav {
     justify-content: space-between;
-    margin-top: 5px;
+    
 }
 
 .nav-links ul{
@@ -193,7 +193,6 @@ header {
 }
 
 .logos img {
-    /* width: 120px; */
     height: 50px;
     
 }
@@ -389,7 +388,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 20px;
-    max-width: 50%;
+    width: 50%;
 }
 .panel-description{
     flex-direction: row;
