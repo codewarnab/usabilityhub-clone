@@ -36,7 +36,7 @@
                     <img src="assets/become-a-teste.svg" alt="" / id="bg-bt">
                     <div class="become-tester">Become a tester</div>
                 </a>
-                <div class="nav-links">
+                <div class="nav-links" id="nav-links">
                     <ul class="flex">
                         <li><a href="#" class="hover-links">Products</a></li>
                         <li><a href="#" class="hover-links">Customers</a></li>
@@ -54,7 +54,7 @@
                         </li>
                     </ul>
                 </div>
-                <a href="#" class="hover-links nav-toggle"><i class="fa-solid fa-bars"></i></a>
+                <a href="#" class="hover-links nav-toggle" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
             </div>
         </nav>
 
@@ -463,5 +463,13 @@
             </div>
         </footer>
         <!-- <div class="spcaer" style="height: 100vh"></div> -->
+        <script>
+            const toggleButton =document.getElementById("nav-toggle");
+            const navLinks = document.getElementById("nav-links");
+
+            toggleButton.addEventListener('click',()=>{
+                navLinks.classList.toggle('active');
+            })
+        </script>
     </body>
 </html>

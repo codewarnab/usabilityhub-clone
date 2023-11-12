@@ -1,10 +1,33 @@
 @media screen and (max-width:1012px) {
+    #bg-bt,.become-tester{
+        display: none;
+
+    }
+    .become-tester{
+        position: static;
+    }
     .nav-toggle{
         display: block;
         margin-right: 20px;
     }
+    .main-nav{
+        overflow: initial;
+        
+    }
     .nav-links{
-        display: none;
+        position: absolute;
+        top: 65%;
+        left: -100%;
+        background-color: #fff;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        width: 100vw;
+        padding-block: 40px;
     }
 }
 
@@ -85,6 +108,7 @@
     }
     .cta-description{
         width: 100%;
+        align-items: center;
     }
 
     
@@ -109,9 +133,7 @@
 }
 
 @media screen and (max-width:425px){
-    #bg-bt,.become-tester{
-        display: none;
-    }
+    
     h1{
         font-size: 2rem;
     }
@@ -122,11 +144,15 @@
     .features-section{
         padding: 20px 10px ;
     }
+    .example-cards{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:375px){
     .features-card{
         min-width: calc(100% - 20px);
+        border-radius: 20px;
     }
     
 }

@@ -74,6 +74,7 @@ ul{
 }
 .main-nav {
     justify-content: space-between;
+    position: relative;
     
 }
 
@@ -284,7 +285,6 @@ header {
     width: 50vw;
 }
 .review{
-/*     position: none; */
     top: -30px;
     width: 390px;
     font-weight: 550;
