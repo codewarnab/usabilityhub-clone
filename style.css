@@ -279,7 +279,7 @@ header {
     width: 60vw;
 }
 .review{
-    position: none;
+/*     position: none; */
     top: -30px;
     width: 390px;
     font-weight: 550;
@@ -442,6 +442,7 @@ header {
 footer{
     background-color: #ebf2fab9;
 }
+
 .nav-toggle{
     display: none;
 }
