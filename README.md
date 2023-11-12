@@ -8,7 +8,6 @@ This project is a clone of the UsabilityHub website, created for educational pur
 - [Features](#features)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
