@@ -4,15 +4,18 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>usabilityhub</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Lato:wght@400;650&family=Poppins:wght@500&display=swap"
             rel="stylesheet"
         />
+        <script src="https://kit.fontawesome.com/ad11dae7b5.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
     </head>
+
     <body>
         <!-- top-banner  -->
         <section class="top-banner">
@@ -51,6 +54,7 @@
                         </li>
                     </ul>
                 </div>
+                <a href="#" class="hover-links nav-toggle"><i class="fa-solid fa-bars"></i></a>
             </div>
         </nav>
 
@@ -64,7 +68,7 @@
                         takes the guesswork out of design decisions by
                         validating them with real users
                     </p>
-                    <a href="#" class="primary-button get-started-btn"
+                    <a href="#" class="primary-button get-started-btn header-btn"
                         >Get Started</a
                     >
                 </div>
@@ -268,7 +272,7 @@
         </section>
 
         <section class="big-feature-section">
-            <div class="container flex big-features-container">
+            <div class="container flex big-features-container" id = "rev">
                 <div class="feature-description flex">
                     <h3>Optimisation for</h3>
                     <h2>Marketers</h2>
@@ -372,7 +376,7 @@
             </div>
         </section>
 
-        <section class="cta-section flex">
+        <section class="cta-section">
             <div class="flex cta-content">
                 <div class="cta-description flex">
                     <h1>No participants?</h1>
@@ -409,6 +413,12 @@
                     <img src="assets/footer_panel.png" alt="" />
                 </div>
             </div>
+            <div class="mobile-tablet-div">
+
+                <a href="#" class="primary-button learn-more-btn2"
+                        >Learn more</a
+                    >
+            </div>
         </section>
         <section>
             <div class="cta2 flex">
@@ -422,9 +432,9 @@
 
         <footer>
             <div class="container flex footer-container">
-                    <a href="#" class="company-logo "
-                        ><img src="assets/_logo.svg" alt="company logo"
-                    /></a>
+                <a href="#" class="company-logo"
+                    ><img src="assets/_logo.svg" alt="company logo"
+                /></a>
                 <div class="link-column flex">
                     <h3>Product</h3>
                     <a href="#" class="hover-links">overview</a>
@@ -450,9 +460,8 @@
                     <a href="#" class="hover-links">Contact</a>
                     <a href="#" class="hover-links">Careers</a>
                 </div>
-    
             </div>
         </footer>
-        <!-- <div class="spcaer" style="height: 100vh"></div> -->
+        <div class="spcaer" style="height: 100vh"></div>
     </body>
 </html>
