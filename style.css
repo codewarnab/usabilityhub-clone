@@ -254,6 +254,7 @@ header {
 }
 
 .feature-img img {
+    min-width: 40vw;
     width: 100%;
 }
 .mobile-tablet-div{
@@ -267,7 +268,7 @@ header {
 .feature-description {
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 60px;
+    
 }
 .quote{
     position: relative;
@@ -276,7 +277,7 @@ header {
 }
 
 .feature-description p {
-    width: 60vw;
+    width: 50vw;
 }
 .review{
 /*     position: none; */
