@@ -248,9 +248,14 @@ header {
 .big-feature-section {
     padding: 30px var(--paddin-inline-section);
 }
-.big-feature-container {
-    gap: 30px;
-
+.feature-img:nth-child(1){
+    margin-right: 20px;
+}
+.feature-img:nth-child(2){
+    margin-left: 20px;
+}
+.feature-img:nth-child(3){
+    margin-right: 20px;
 }
 
 .feature-img img {
