@@ -11,20 +11,26 @@
             href="https://fonts.googleapis.com/css2?family=Lato:wght@400;650&family=Poppins:wght@500&display=swap"
             rel="stylesheet"
         />
-        <script src="https://kit.fontawesome.com/ad11dae7b5.js" crossorigin="anonymous"></script>
+        <script
+            src="https://kit.fontawesome.com/ad11dae7b5.js"
+            crossorigin="anonymous"
+        ></script>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="mediaqueries.css" />
+        <link rel="stylesheet" href="loader.css" />
     </head>
 
-    <body>
-        <!-- top-banner  -->
-        <section class="top-banner">
-            <div class="container">
-                <div class="small-bold-text banner-text">
-                    🥳 New to UsabilityHub: Open and closed card sorting!
-                </div>
+    <body onload="hidepreloader()">
+        <!-- -----loader---- -->
+        <div class="loader">
+            <div class="aqua">
+                <span class="percentBar">
+                    <h3 class="number">0%</h3>
+                </span>
             </div>
-        </section>
+            <h2 id="h">Welcome</h2>
+        </div>
+
         <!-- nav bar  -->
         <nav>
             <div class="container main-nav flex">
@@ -54,7 +60,9 @@
                         </li>
                     </ul>
                 </div>
-                <a href="#" class="hover-links nav-toggle" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
+                <a href="#" class="hover-links nav-toggle" id="nav-toggle"
+                    ><i class="fa-solid fa-bars"></i
+                ></a>
             </div>
         </nav>
 
@@ -68,7 +76,9 @@
                         takes the guesswork out of design decisions by
                         validating them with real users
                     </p>
-                    <a href="#" class="primary-button get-started-btn header-btn"
+                    <a
+                        href="#"
+                        class="primary-button get-started-btn header-btn"
                         >Get Started</a
                     >
                 </div>
@@ -272,7 +282,7 @@
         </section>
 
         <section class="big-feature-section">
-            <div class="container flex big-features-container" id = "rev">
+            <div class="container flex big-features-container" id="rev">
                 <div class="feature-description flex">
                     <h3>Optimisation for</h3>
                     <h2>Marketers</h2>
@@ -414,10 +424,9 @@
                 </div>
             </div>
             <div class="mobile-tablet-div">
-
                 <a href="#" class="primary-button learn-more-btn2"
-                        >Learn more</a
-                    >
+                    >Learn more</a
+                >
             </div>
         </section>
         <section>
@@ -462,14 +471,39 @@
                 </div>
             </div>
         </footer>
-        <!-- <div class="spcaer" style="height: 100vh"></div> -->
         <script>
-            const toggleButton =document.getElementById("nav-toggle");
+            let i = 0;
+            let h2 = document.getElementById("h");
+            let aqua = document.querySelector(".aqua");
+            let percentBar = document.querySelector(".percentBar");
+            let container = document.querySelector('.loader');
+            let number = document.querySelector(".number");
+
+            let interval = setInterval(function () {
+                number.innerHTML = i + "<span>%<span>";
+                percentBar.style.width = i + "%";
+                i++;
+                if (i == 101) {
+                    clearInterval(interval);
+                    setTimeout(function () {
+                        aqua.style.opacity = "0";
+                        aqua.style.visibility = "hidden";
+                        container.style.background = "#03a9f4";
+                        h2.style.opacity = "1";
+                        h2.style.visibility = "visible";
+                    });
+                }
+            }, 10);
+
+            function hidepreloader(){
+                container.style.display='none'
+            }
+            const toggleButton = document.getElementById("nav-toggle");
             const navLinks = document.getElementById("nav-links");
 
-            toggleButton.addEventListener('click',()=>{
-                navLinks.classList.toggle('active');
-            })
+            toggleButton.addEventListener("click", () => {
+                navLinks.classList.toggle("active");
+            });
         </script>
     </body>
 </html>
