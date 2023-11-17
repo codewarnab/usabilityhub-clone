@@ -145,4 +145,15 @@
         min-width: calc(100% - 20px);
         border-radius: 20px;
     }
+    #h {
+        font-weight: 300;
+    }
+    .aqua {
+        width: 400px;
+        padding: 5px;
+
+    }
+    .percentBar {
+        height: 5px;
+    }
 }
