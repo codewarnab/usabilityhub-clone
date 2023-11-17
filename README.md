@@ -42,4 +42,4 @@ Thanks for contributing!
 To run the project locally, clone the repository:
 
 ```bash
-git clone https://github.com/blacknut1803/usabilityhub-clone.git
+git clone https://github.com/codewarnab/usabilityhub-clone.git
