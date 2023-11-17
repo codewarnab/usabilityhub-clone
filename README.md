@@ -1,6 +1,6 @@
 # UsabilityHub Clone
 
-This project is a clone of the UsabilityHub website, created for educational purposes to practice HTML, CSS, and JavaScript. The live version of the project is available [here](https://blacknut1803.github.io/usabilityhub-clone/).
+This project is a clone of the UsabilityHub website, created for educational purposes to practice HTML, CSS, and JavaScript. The live version of the project is available [here](https://codewarnab.github.io/usabilityhub-clone/).
 
 ## Table of Contents
 - [Description](#description)
