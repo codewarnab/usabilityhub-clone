@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="mediaqueries.css" />
         <link rel="stylesheet" href="loader.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"> <!--include an easy set of icons-->
     </head>
 
     <body onload="hidepreloader()">
@@ -34,8 +35,11 @@
          <!-- top-banner  -->
         <section class="top-banner">
             <div class="container">
-                <div class="small-bold-text banner-text">
-                    🥳 New to UsabilityHub: Open and closed card sorting!  <img src="assets/black_icon_arrow_right.svg" alt="">
+                <div class="row">
+                    <div id="theme-btn" class="far fa-moon" style="display: inline;"></div> <!--create a Font Awesome moon icon class, which you will switch to the Font Awesome sun icon class later using JavaScript-->
+                    <div class="small-bold-text banner-text" style="display: inline-block;">
+                        🥳 New to UsabilityHub: Open and closed card sorting! <img src="assets/black_icon_arrow_right.svg" alt="">
+                    </div>
                 </div>
             </div>
         </section>    
