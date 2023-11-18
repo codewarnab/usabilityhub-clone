@@ -20,7 +20,7 @@ This repository contains the source code for a clone of the [UsabilityHub](https
 3. **JavaScript Interactivity:** Adding interactivity to the website through JavaScript, such as toggling navigation bars and creating dynamic content.
 4. **Responsive Design:** Ensuring the website is optimized for various devices and screen sizes.
 5. **GitHub Pages Deployment:** Deploying the project using GitHub Pages for easy accessibility.
-
+   **Loading Animation:** Added beautiful loading animation matching to the color pallate of the website 
 ## Features
 
 - **Navigation:** Responsive navigation bar with a toggle feature for mobile devices.
