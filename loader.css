@@ -10,7 +10,7 @@
     align-items: center;
     background: #fff;
     transition: 0.5s ;
-    
+    overflow-y: hidden;
 }
 .aqua {
     position: relative;
