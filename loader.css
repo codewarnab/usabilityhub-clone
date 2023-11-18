@@ -1,6 +1,3 @@
-body {
-  overflow: hidden; /* Hide scrollbars */
-}
 .loader {
     position: fixed;
     top: 0;
