@@ -441,3 +441,8 @@ footer {
 .nav-toggle {
     display: none;
 }
+
+.changeTheme {
+    background: #1D1E22;
+    color: #eee;
+  }
