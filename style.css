@@ -15,8 +15,6 @@
 body {
     font-family: "Poppins", sans-serif;
     color: var(--primary-text-color);
-    /* width: 100vw; */
-    /* height: 100vh; */
 }
 
 h1 {
@@ -115,8 +113,6 @@ ul {
     font-weight: 500;
     color: var(--primary-text-color);
     padding: 5px 18px 5px 18px;
-    /* padding-left: 10px; */
-    /* padding-right: 10px; */
     transition: 0.2s ease-out;
 }
 .secondary-button:hover {
